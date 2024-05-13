@@ -85,25 +85,32 @@ if (isset($_POST['action']) && $_POST['action'] == "register") {
     <link rel="stylesheet"  href="style.css">
 </head>
 <body>
-<h1>Zarejestruj się</h1>
-<div>
-<form action="index.php" method="post">
-    <label for="nameInput">Imię:</label>
-    <input type="text" name="name" id="nameInput">
-    <label for="lastNameInput">Nazwisko:</label>
-    <input type="text" name="lastName" id="lastNameInput">
-    <label for="emailInput">Adres Email:</label>
-    <input type="email" name="email" id="emailInput">
-    <label for="passwordInput">Hasło:</label>
-    <input type="password" name="password" id="passwordInput">
-    <label for="passwordRepeatInput">Hasło ponownie:</label>
-    <input type="password" name="passwordRepeat" id="passwordRepeatInput">
-    <input type="hidden" name="action" value="register">
-    <label>
-        <p><input type="checkbox" required name="terms"> Dziękujemy za korzystanie z naszej platformy. Przed kontynuowaniem, prosimy o zapoznanie się z poniższym regulaminem i wyrażenie zgody na jego postanowienia. Akceptując regulamin, zobowiązujesz się przestrzegać ustalonych zasad i warunków korzystania z naszych usług. W razie pytań lub wątpliwości, zachęcamy do kontaktu z naszym działem obsługi klienta.</p>
-    </label>
-    <input type="submit" value="Zarejestruj" id="button">
-</div>
-</form>
+    <div>
+        <div class="top">
+            <input type="submit" value="Zarejestruj" id="button">
+            <input type="submit" value="Lekarze" id="button"> 
+            <input type="submit" value="Konsultacje" id="button">  
+        </div>
+        <h1>Zarejestruj się</h1>
+        <div>
+            <form action="index.php" method="post">
+                <label for="nameInput">Imię:</label>
+                <input type="text" name="name" id="nameInput">
+                <label for="lastNameInput">Nazwisko:</label>
+                <input type="text" name="lastName" id="lastNameInput">
+                <label for="emailInput">Adres Email:</label>
+                <input type="email" name="email" id="emailInput">
+                <label for="passwordInput">Hasło:</label>
+                <input type="password" name="password" id="passwordInput">
+                <label for="passwordRepeatInput">Hasło ponownie:</label>
+                <input type="password" name="passwordRepeat" id="passwordRepeatInput">
+                <input type="hidden" name="action" value="register">
+                <label>
+                    <p><input type="checkbox" required name="terms"> Dziękujemy za korzystanie z naszej platformy. Przed kontynuowaniem, prosimy o zapoznanie się z poniższym regulaminem i wyrażenie zgody na jego postanowienia. Akceptując regulamin, zobowiązujesz się przestrzegać ustalonych zasad i warunków korzystania z naszych usług. W razie pytań lub wątpliwości, zachęcamy do kontaktu z naszym działem obsługi klienta.</p>
+                </label>
+                <input type="submit" value="Zarejestruj" id="button">
+            </form>
+        </div>
+    </div>
 </body>
 </html>

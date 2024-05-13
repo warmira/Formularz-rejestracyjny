@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(195, 237, 198);
+    display: flex;
+    background-image: url(zdjecie.jpg);
+
+}
+
+h1 {
+    color: rgb(135, 215, 15);
+  text-align: center;
+  font-size: 72px;
+  background-color: black;
+  margin: auto;
+  padding: auto;
+  
+}
+
+form {
+    background-color: rgb(240, 238, 238);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid rgb(189, 209, 74);
+    box-shadow: 0 8px 16px 0 rgba(206, 149, 149, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+form:hover {
+    background-color: rgb(217, 214, 214);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input {
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+    background: rgb(152, 223, 152);
+    display: flex; 
+    text-align: center;
+    font-size: 20px;
+    -moz-box-align: center;
+    align-items: center
+}
+
+div {
+    align-items: center
+}
+ label {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    align-items: center;
+ }
